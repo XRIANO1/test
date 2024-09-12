@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+  }
+  .header{
+    background-color: #0071f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+  }
+  .logo{
+    width: 100px;
+  }
+  .header-links a{
+  text-decoration: none;
+   color: white;
+   padding: 3px 20px;
+  }
+  .header-links a:hover{
+    background-color: #ffffff76; 
+    color: #ffffff;
+    border-radius:15px ;
+  }
+  .header-links button{
+    color: #ffffff;
+    background-color: #e02128;
+    border: none;
+    border-radius: 15px; 
+  }
+  .header-links button:hover{
+    background-color: #ff2525;
+  border-radius: 15px; 
+  }
+  .landing-page{
+background-color: #0071f9;
+display:flex;
+justify-content: space-between;
+padding: 40px 50px;
+border-radius:0 0 50px 50px ;
+align-items: center;
+color: #ffffff;
+  }
+ .landing-page-search input{
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding: 0 10px;
+ }
+ .landing-page-search button{
+    position: absolute;
+    left: 190px;
+    background-color:#ff2525 ;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+ }
+ .landing-page-search button:hover{
+    background-color: #e6797d;
+ }
+ .landing-page-img{
+ border-radius: 25px;
+ }
+ 
